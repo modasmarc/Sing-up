@@ -1,47 +1,54 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Sign up</title>
-<link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="./css/form.css">
-<link rel="stylesheet" href="./css/button.css">
-<link rel="stylesheet" href="./css/main.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
 </head>
 <body>
-Sign up  
-<div class="container">
-    <div class="left">
-        <footer>
-            <a href="#">Privacy policy</a>
-            <span>&</span>
-            <a href="#">terms of service</a>
-        </footer>
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="left">
+            <h1>Sing Up</h1>
+            <footer>
+                <a href="#">Privacy policy</a>
+                <span>&</span>
+                <a href="#">terms of service</a>
+            </footer>
+        </div>
+        <div class="right">
+            <div class="x">X</div>
+            <form>
+                <div class="form-row">
+                    <label for="username">Username</label>
+                    <input name="username" type="text" placeholder="Enter your username...">
+                </div>
+                <div class="form-row">
+                    <label for="email">E-mail</label>
+                    <input name="email" type="email" placeholder="Enter your email...">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password</label>
+                    <input name="pass" type="password" placeholder="Enter your password...">
+                </div>
+                <div class="form-row">
+                    <label for="rep-pass">Repeat password</label>
+                    <input name="rep-pass" type="password" placeholder="Repeat your password...">
+                </div>
+                <div class="form-row no-margin">
+                    <div class="btn">Get started</div>
+                    <span>or</span>
+                    <a href="#">Sign in</a>
+                </div>
+            </form>
+        </div>
     </div>
-    <div class="right">
-        <div class="x">X</div>
-        <form>
-            <div class="form-row">
-                <label for="">Username</label>
-                <input type="text">
-            </div>
-            <div class="form-row">
-                <label for="">E-mail</label>
-                <input type="text">
-            </div>
-            <div class="form-row">
-                <label for="">Password</label>
-                <input type="text">
-            </div>
-            <div class="form-row">
-                <label for="">Repeat password</label>
-                <input type="text">
-            </div>
-            <div class="form-row no-margin">
-                <div class="btn">Get started</div>
-                <span>or</span>
-                <a href="#">Sign in</a>
-            </div>
-        </form>
-    </div>
-</div>
 </body>
-</html> 
+</html>
